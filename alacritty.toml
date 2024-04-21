@@ -1,0 +1,24 @@
+import = ["/home/forrest/.config/alacritty/themes/theme/gruvbox_light.yaml"]
+
+[font]
+size = 16
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "Regular"
+
+[scrolling]
+history = 2000
+multiplier = 20
+
+[window]
+decorations = "none"
+dynamic_padding = false
+
+[window.dimensions]
+columns = 145
+lines = 34
+
+[window.padding]
+x = 10
+y = 15

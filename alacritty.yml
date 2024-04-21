@@ -1,0 +1,37 @@
+import:
+  - /home/forrest/.config/alacritty/themes/theme/gruvbox_light.yaml
+tabspaces: 4
+live_config_reolad: true
+windows_opacity: 0.9
+
+window:
+  decorations: "none"
+  dimensions:
+    columns: 150
+    lines: 34
+  padding:
+    x: 2
+    y: 3
+  dynamic_padding: false
+scrolling:
+  # 历史保留行数
+  history: 2000
+
+  # 每次滚动行数
+  multiplier: 20
+
+  # 每次滚动行数（分屏时）
+  faux_multiplier: 100
+
+  # 自动滚动至最新行
+  auto_scroll: true
+
+startup_mode: Fullscreen
+
+highlight_damage: true
+
+font:
+  normal:
+    family: JetBrainsMono Nerd Font
+    style: Regular
+  size: 16
